@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.service{
+    padding: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.service h1 {
+    font-family: 'Permanent Marker', "serif";
+    font-size: 3rem;
+    text-align: center;
+}
+
+.service-txt-container {
+    display: flex;
+    justify-content: center;
+}
+
+.service-txt {
+    color: #9b59b6;
+    font-weight: 600;
+    font-size: 3rem; /* Adjust the font size as needed */
+    
+}
+.about-sub{
+    display: flex;
+    max-width: 800px;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+.about-sub > img {
+    max-height: 250px;
+    max-width: 90%;
+    width: 250px;
+}
+.about2 h1{
+    font-family: 'Permanent Marker', "serif";
+}
+
+.about2 p{
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 20px;
+}
+
+.about1 p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}

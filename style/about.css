@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+body{
+    background: url(../img/codioful-formerly-gradienta-iIeBtdQf_bg-unsplash.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.about1{
+   margin-top: 5rem;
+}
+
+.about h1{
+    font-family: 'Luckiest Guy', sans-serif;
+    position: relative;
+    left: 50px;
+    font-size: 3rem;
+    color: antiquewhite;
+    font-weight: 500;
+}
+.about p{
+    position: relative;
+    left: 50px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.about-sub{
+    display: flex;
+    max-width: 800px;
+    margin: 1rem auto;
+    /* text-align: left; */
+}
+.sub-sub-about{
+    margin-top: 50px;
+}
+.img1{
+    max-height: 250px;
+    width: 300px;
+    max-width: 90%;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.about1 h1{
+    font-family: 'Nanum Brush Script', cursive;
+    font-weight: 400;
+}
+.about1 p{
+    font-family: 'Julee', cursive;
+    font-weight: 800;
+    font-size: 25px;
+}
+.about2 h1{
+    font-family: 'Nanum Brush Script', cursive;
+    font-weight: 400;
+}
+
+.about2 p{
+    font-family: 'Julee', cursive;
+    font-weight: 800;
+    font-size: 16px;
+}

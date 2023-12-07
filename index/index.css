@@ -1,0 +1,90 @@
+.home-main{
+    /* background: url(../img/\/codioful-formerly-gradienta-vzR6RQw7TdM-unsplash.jpg) no-repeat; */
+    background: url(../img/codioful-.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    z-index: 100;
+}
+
+.hero2{
+   padding: 0 19%;
+}
+
+.herotext h5 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 160px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sideimg img{
+    margin-bottom: 100px;
+    margin-left: 150px;
+    height: 500px;
+    width: 800px;
+}
+
+.textcolor{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.herotext a{
+    display: inline-block;
+    color: white;
+    background-color: hsla(284, 79%, 58%, 0.319);
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    font-weight: 700;
+}
+
+.herotext a:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform: translate(8px);
+    color: rgb(133, 44, 196);
+}
+
+.herotext i{
+     vertical-align: middle;
+     margin-right: 5px;
+     
+}
+
+/* @media (min-width: 1195px) {
+    header{
+      padding: 0 3% ;
+      transition: .2s;
+    }
+    .herotext{
+        padding-top: 115px;
+    }
+    .sideimg{
+        text-align: center;
+    }
+    .sideimg img{
+        width: 560px;
+        height: auto;
+    }
+    .hero{
+        height: 100%;
+        gap: 1rem;
+        grid-template-columns: 1fr ;
+ }
+} */
+
